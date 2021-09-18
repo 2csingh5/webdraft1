@@ -4,18 +4,7 @@
 	<title>Profile Page</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="mycss_webDraft.css">
-   
-	<style>
-	html{
-    	  scroll-behavior: smooth;
-	}
-	
-	p{
-  	  color: #000000;
-  	  font-size: 19px;
-	}
-	</style>
-	
+    
 </head>
 
 <body>
@@ -32,7 +21,7 @@
        <li> <a href="#My Projects in this course">My Projects in this course</a></li>
        </ul>
 	
-	<div style="background-color:#f5beb4;">
+	<div style="background-color:#f5beb4; overflow-x:auto;">
 		<h1>Welcome To My Webpage</h1>
 		 
 		<center> <img src="https://www.mountsinai.org/files/MSHealth/Assets/Media/final/new-york-city-brooklyn-bridge-2.jpg" 
@@ -141,10 +130,10 @@
     </div>
     <hr>
     
-     <div class="FavoriteSong"id="Favorite song, film, and TV show">
+     <div class="FavoriteSong"id="Favorite song, film, and TV show" style="overflow-x:auto;">
     <h2 style="text-align:center;">Favorite Song, Film, and TV Show</h2>
     
-    <table style="width:100%; background-color: #D6EEEE; text-align:center;">
+    <table id="FavTable">
     <tr>
     <th> Favorite Shows</th>
     <th> Favorite Movies </th>
@@ -167,13 +156,16 @@ src="https://www.youtube.com/embed/RLoKtb4c4W0">
 </iframe>
 <br>
 	
-    <p>Have You Seen 21 Jump Street?</p>
+    
+<form class="screen-only">
 
-<form>
-  <input type="radio" id="Yes" name="have_you_seen" value="YES">
-  <label for="Yes">Yes</label><br>
-  <input type="radio" id="No" name="have_you_seen" value="NO">
-  <label for="No">No</label><br>
+<p>Have You Seen 21 Jump Street?</p>
+
+  <select id="yes/no" name="yes/no">
+  <option value="select">Select</option>
+  <option value="yes">Yes</option>
+  <option value="no">No</option>
+  </select>
 </form> 
    </td>
     
