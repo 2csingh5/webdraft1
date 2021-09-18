@@ -25,3 +25,11 @@
   background-color: #555;
   color: white;
 }
+
+#div1{
+  text-align:center;
+  background-color: navy;
+  color: white;
+  margin-left:25%;
+  padding:10px 16px;
+}
