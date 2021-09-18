@@ -33,3 +33,11 @@
   margin-left:25%;
   padding:10px 16px;
 }
+
+section{
+  margin-left:25%;
+  width: 100%;
+  float: left;
+  height: 100vh;
+  position: relative;
+}
