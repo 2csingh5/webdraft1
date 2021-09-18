@@ -1,4 +1,4 @@
-   
+
 html{
     scroll-behavior: smooth;
 }
@@ -22,13 +22,11 @@ html{
 }
 
 #nav li a.active {
-  /*background-color: #04AA6D;*/
   background-color: #1e847f;
   color: white;
 }
 
 #nav li a:hover:not(.active) {
-  /*background-color: #555;*/
   background-color: #555;
   color: white;
 }
@@ -51,13 +49,36 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid #ddd;
+  border: 2px solid black;
   border-radius: 4px;
   padding: 5px;
 }
 
 #ProfilePic{
 border-radius: 50%;
+}
+
+#LangTable {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#LangTable td, #LangTable th {
+  border: 2px solid black;
+  padding: 8px;
+}
+
+#LangTable tr:nth-child(even){background-color: #f2f2f2;}
+
+#LangTable tr:hover {background-color: yellow;}
+
+#LangTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
 }
 
 .BasicProfileInfo{
