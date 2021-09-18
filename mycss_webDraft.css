@@ -1,7 +1,4 @@
 
-html{
-    scroll-behavior: smooth;
-}
 
 #nav {
  /* list-style-type: none;*/
@@ -38,11 +35,6 @@ div{
 
 h1, h2{
 	text-align:center;
-}
-
-p{
-  color: #000000;
-  font-size: 19px;
 }
 
 img {
