@@ -1,1 +1,10 @@
 
+#div1
+{
+  width:100%;
+}
+
+div1 h1{
+  padding-top: 50%;
+  padding-bottom: 50%;
+}
