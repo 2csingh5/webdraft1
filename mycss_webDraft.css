@@ -26,18 +26,8 @@
   color: white;
 }
 
-#div1{
-  text-align:center;
-  background-color: navy;
-  color: white;
+div{
   margin-left:25%;
   padding:10px 16px;
-}
-
-section{
-  margin-left:25%;
-  width: 100%;
-  float: left;
-  height: 100vh;
-  position: relative;
+  text-align:center;
 }
