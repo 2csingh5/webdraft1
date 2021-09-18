@@ -7,4 +7,7 @@
 div1 h1{
   padding-top: 50%;
   padding-bottom: 50%;
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
 }
